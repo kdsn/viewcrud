@@ -1,0 +1,40 @@
+:root {
+  --theme-color-1: #01B636;
+  --theme-color-2: #3BD16F;
+  --theme-color-3: #74E39A;
+  --theme-color-4: #E3E3E3;
+  --theme-color-5: #989898;
+
+  --main-font: "Montserrat";
+  --alt-font: "Varela Round";
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* class selector */
+.border-bottom {
+  border-bottom: 1px solid var(--theme-color-1) !important;
+}
+
+/* Element selector */
+label {
+  font-size: small;
+}
+
+/* ID selector */
+#parti{
+  color: var(--theme-color-2);
+  font-family: var(--alt-font);
+}
+.leed {
+  color: var(--theme-color-2);
+  font-size: 1.2rem;
+}
+
+/* Placering af element */
+footer {
+  position: relative;
+  bottom: 0;
+}
